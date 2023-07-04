@@ -1,0 +1,78 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: July 4, 2023 4:52 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.4
+WORDPRESS:	6.2.2
+PHP INFO:	8.2.0 | SAPI: apache2handler
+SERVER:		Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 58MB
+[CTRL DUP ARCIVE] PACKAGE AS NEW ID 3 SAVED | STATUS:0
+[DUP ARCHIVE] BUILDING DATABASE
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+[PHP ERR][ISSUE] MSG:Creation of dynamic property DUP_Database::$sameNameTableExists is deprecated [CODE:8192|FILE:T:\xampp\htdocs\bahaa\wp-content\plugins\duplicator\classes\package\class.pack.database.php|LINE:761]
+do_action('wp_ajax_duplicator_duparchive_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_Database->mysqlDump, DUP_Database->rewriteTableNameAs, DUP_Handler::error, DUP_Handler::getMessage
+SQL CREATED: 20230704_portfolio_2b902a852696a2fb9329_20230704045210_database.sql
+SQL FILE SIZE: 14.03MB (14707255)
+SQL FILE TIME: 2023-07-04 04:53:01
+SQL RUNTIME: 43.05 sec.
+[DUP ARCHIVE] VALIDATING DATABASE
+[DUP ARCHIVE] DONE DATABASE
+
+********************************************************************************
+ARCHIVE Type=DUP Mode=DupArchive
+********************************************************************************
+ARCHIVE DIR:  T:/xampp/htdocs/bahaa
+ARCHIVE FILE: 20230704_portfolio_2b902a852696a2fb9329_20230704045210_archive.daf
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	187.44MB
+STATS:	Dirs 1,655 | Files 7,838 | Total 9,493
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+building installer
+[DUP ARCHIVE] DONE ARCHIVE
+COMPRESSED SIZE: 78.7MB
+ARCHIVE RUNTIME: 128.05 sec.
+MEMORY STACK: 62MB
+CREATE WARNINGS: No warnings.
+VALIDATION WARNINGS: No warnings.
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] HAS COMPLETED CLOSING
+[DUP ARCHIVE] DUP ARCHIVE INTEGRITY CHECK
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 14.03MB
+INSTALLER FILE: 94.69KB
+ARCHIVE FILE: 78.7MB 
+EXPECTED FILE/DIRECTORY COUNT: 10,231
+ACTUAL FILE/DIRECTORY COUNT: 10,232
+
+********************************************************************************
+RECORD ID:[3]
+TOTAL PROCESS RUNTIME: 128.06 sec.
+PEAK PHP MEMORY USED: 62MB
+DONE PROCESSING => 20230704_portfolio 2023-07-04 04:54:26
+

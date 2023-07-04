@@ -1,0 +1,31 @@
+[Jul 3 10:02:21] 
+[Jul 3 10:02:21] [PHP ERR][ISSUE] MSG:Creation of dynamic property DUPX_Bootstrap::$extractionTmpFolder is deprecated [CODE:8192|FILE:T:\xampp\htdocs\bahaa\installer.php|LINE:99]
+[Jul 3 10:02:21] ==DUPLICATOR INSTALLER BOOTSTRAP v1.5.4==
+[Jul 3 10:02:21] ----------------------------------------------------
+[Jul 3 10:02:21] Installer bootstrap start
+[Jul 3 10:02:21] Ready to extract the installer
+[Jul 3 10:02:21] Checking permission of destination folder
+[Jul 3 10:02:21] Expand directory from offset 72513077
+[Jul 3 10:02:30] No need to create dup-installer/.htaccess or dup-installer/.user.ini
+[Jul 3 10:02:30] SAPI: apache2handler
+[Jul 3 10:02:30] [PHP ERR][ISSUE] MSG:Creation of dynamic property DUPX_Bootstrap::$archive is deprecated [CODE:8192|FILE:T:\xampp\htdocs\bahaa\installer.php|LINE:529]
+[Jul 3 10:02:30] [PHP ERR][ISSUE] MSG:Creation of dynamic property DUPX_Bootstrap::$bootloader is deprecated [CODE:8192|FILE:T:\xampp\htdocs\bahaa\installer.php|LINE:530]
+[Jul 3 10:02:30] Set permissions of dup-installer<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/addons<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/assets<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/classes<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/ctrls<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/favicon<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/libs<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/original_files_[HASH]<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/src<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/templates<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/vendor<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/dup-archive__[HASH].txt<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/dup-scan__[HASH].json<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/dup-scanned-dirs__[HASH].txt<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/dup-scanned-files__[HASH].txt<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/index.php<br/>
+[Jul 3 10:02:30] Set permissions of dup-installer/main.installer.php<br/>
+[Jul 3 10:02:30] DONE: No detected errors so redirecting to the main installer. Main Installer URI = http://localhost/bahaa/dup-installer/main.installer.php
+[Jul 3 10:02:30] [PHP ERR][ISSUE] MSG:Creation of dynamic property DUPX_Bootstrap::$extractionTmpFolder is deprecated [CODE:8192|FILE:T:\xampp\htdocs\bahaa\installer.php|LINE:99]
